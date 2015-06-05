@@ -42,6 +42,11 @@
         }
     })
 
+    //mailchimp form
+    $('#mc-form').ajaxChimp({
+        url: 'http://mixedcontent.us1.list-manage.com/subscribe/post?u=8b396bdd38565d90d0575ab1f&id=8ab40962d3'
+    });
+
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
